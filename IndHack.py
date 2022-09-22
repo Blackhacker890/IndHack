@@ -48,7 +48,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 IndHack.py')
+    os.system('python2 .README.md')
 
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
